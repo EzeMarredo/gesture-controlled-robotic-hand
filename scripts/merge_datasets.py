@@ -10,10 +10,10 @@ import os
 import shutil
 
 # CONFIGURACIÓN
-DATASET1_DIR = "custom_dataset"   # dataset principal (no se renombra)
-DATASET2_DIR = "dataset_merged"           # dataset secundario (se renombra con prefijo)
-OUTPUT_DIR   = "dataset_merged_v2"
-PREFIX       = "custom_"                     # prefijo para archivos del dataset2
+DATASET1_DIR = "/home/eze/Desktop/PPS/fotos/augmented_custom_dataset"   # dataset principal (no se renombra)
+DATASET2_DIR = "/home/eze/Desktop/PPS/Mano_Robótica/all_datasets/dataset_merged"           # dataset secundario (se renombra con prefijo)
+OUTPUT_DIR   = "/home/eze/Desktop/PPS/Mano_Robótica/all_datasets/augmented_dataset_merged_v1"
+PREFIX       = "augmented_custom_v1_"                     # prefijo para archivos del dataset2
 SPLITS       = ["train", "valid"]
 
 

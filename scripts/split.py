@@ -5,8 +5,8 @@ import os
 import shutil
 import random
 
-INPUT_DIR     = "../fotos"
-OUTPUT_DIR    = "custom_dataset"
+INPUT_DIR     = "/home/eze/Desktop/PPS/fotos/augmented_dataset"
+OUTPUT_DIR    = "/home/eze/Desktop/PPS/fotos/augmented_custom_dataset"
 TRAIN_RATIO   = 0.8
 SEED          = 42
 NUM_KEYPOINTS = 21

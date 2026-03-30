@@ -7,7 +7,7 @@ model = YOLO("yolo26m-pose.pt")
 #model = YOLO("runs/pose/train4/weights/last.pt")
 
 model.train(
-    data="dataset_merged_v2/data.yaml", 
+    data="/home/eze/Desktop/PPS/Mano_Robótica/all_datasets/augmented_dataset_merged_v1/data.yaml", 
     epochs=100, 
     imgsz=640,
     batch=24, 
@@ -21,5 +21,5 @@ model.train(
 # SI YA SE ENTRENÓ ANTES, DESCOMENTAR PARA REANUDAR EL ENTRENAMIENTO DESDE EL ÚLTIMO CHECKPOINT GUARDADO
 # SI VOY A REANUDAR EL ENTRENAMIENTO, CAMBIAR LAS EPOCAS EN ARCHIVO args.yaml DEL ENTRENAMIENTO DESEADO
 
-model = YOLO("runs/pose/train24/weights/last.pt")
+model = YOLO("runs/pose/train27/weights/last.pt")
 model.train(resume=True)

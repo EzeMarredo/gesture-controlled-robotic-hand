@@ -4,7 +4,7 @@ import numpy as np
 from ultralytics import YOLO
 
 #train 12 anda bien pero falla con los dedos individuales
-model = YOLO("train24/weights/best.pt")
+model = YOLO("runs/pose/train27/weights/best.pt")
 
 # Definir conexiones del esqueleto (según tu convención de keypoints)
 SKELETON = [
