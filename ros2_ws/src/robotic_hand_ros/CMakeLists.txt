@@ -15,8 +15,10 @@ find_package(std_msgs REQUIRED)
 install (
   PROGRAMS
   hand_nodes/kpt_publisher.py
+  hand_nodes/kpt_publisher_mediapipe.py
   hand_nodes/uart_communication_node.py
   hand_nodes/kpt_subscriber.py
   DESTINATION lib/${PROJECT_NAME}
 )
 ament_package()
+
