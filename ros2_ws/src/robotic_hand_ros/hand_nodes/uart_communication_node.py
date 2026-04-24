@@ -1,4 +1,5 @@
-#! /usr/bin/env python3
+#! /home/jetson1/Desktop/Robotic_Hand_Project/gesture-controlled-robotic-hand/venv_yolo/bin/python3
+
 
 import rclpy
 from rclpy.node import Node

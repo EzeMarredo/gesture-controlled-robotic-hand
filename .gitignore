@@ -10,7 +10,9 @@
 /ros2_ws/src/build
 /ros2_ws/src/install
 /ros2_ws/src/log
-ros2_ws/src/robotic_hand_ros/hand_nodes/best.pt
+ros2_ws/src/robotic_hand_ros/hand_nodes/models/best.pt
+ros2_ws/src/robotic_hand_ros/hand_nodes/models/bestFP32.engine
+ros2_ws/src/robotic_hand_ros/hand_nodes/models/bestFP16.engine
 scripts/yolo26m-pose.pt
 scripts/yolo26n.pt
 scripts/augmentations.py

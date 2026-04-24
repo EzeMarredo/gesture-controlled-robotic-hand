@@ -6,7 +6,7 @@ from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 from mediapipe.tasks.python.vision import HandLandmarker, HandLandmarkerOptions, RunningMode
 
-MODEL_PATH = "hand_landmarker.task"  
+MODEL_PATH = "/home/jetson1/Desktop/Robotic_Hand_Project/gesture-controlled-robotic-hand/ros2_ws/src/robotic_hand_ros/hand_nodes/models/hand_landmarker.task"  
 
 options = HandLandmarkerOptions(
     base_options=python.BaseOptions(model_asset_path=MODEL_PATH),
